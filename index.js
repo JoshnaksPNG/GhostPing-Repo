@@ -5,7 +5,7 @@ const token = JSON.parse(fs.readFileSync(__dirname + "/token.json")).token;
 
 const bot = new Discord.Client({disableEveryone: false});;
 
-const userList = JSON.parse(fs.readFileSync(__dirname + "/userList.json")).users;
+const userList = JSON.parse(fs.readFileSync(__dirname + "/userList.json")).userList;
 
 //No Longer Worthless
 const intvl = 60 * 60 * 1000;
